@@ -1,1 +1,7 @@
 https://eloquentjavascript.net/01_values.html
+
+Next steps:
+- Entities can be in a certain module
+- Modules track the consumption of entities inside them
+- Then the station tracks the consumption of the modules (so the station just knows "the control module is consuming 10 energy and 20 oxygen," while the control module knows "I am consuming 10 energy, and the entity in me is consuming 30 oxygen, plus a shrub is producing 10 oxygen."
+- replace updates with deltaTime functions.
