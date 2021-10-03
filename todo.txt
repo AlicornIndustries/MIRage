@@ -1,7 +1,11 @@
 https://eloquentjavascript.net/01_values.html
 
 Next steps:
-- Entities can be in a certain module
-- Modules track the consumption of entities inside them
-- Then the station tracks the consumption of the modules (so the station just knows "the control module is consuming 10 energy and 20 oxygen," while the control module knows "I am consuming 10 energy, and the entity in me is consuming 30 oxygen, plus a shrub is producing 10 oxygen."
+- allow entities to start in specific module
 - replace updates with deltaTime functions.
+
+
+Gameplay:
+- Start in docking module
+- "You hear a warning." Oxygen leak in command center. Go there and patch it (have an "available actions" list")
+- Items to pick up: a video watch (latest in CRT technology, only mildly carcinogenic) that lets you see station stats without having to go to the command center.

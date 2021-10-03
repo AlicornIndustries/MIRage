@@ -5,7 +5,8 @@ Mirage.StationModules.ControlModule = {
     name: "Control Module",
     maxDurability: 100,
     energyOutput: -10,
-    canDock: false
+    canDock: false,
+    entityCapacity: 3
 }
 Mirage.StationModules.SolarArray = {
     name: "Solar Array",
@@ -16,6 +17,7 @@ Mirage.StationModules.SolarArray = {
 Mirage.StationModules.DockingModule = {
     name: "Docking Module",
     maxDurability: 100,
-    energyOutput: 0,
-    canDock: true
+    energyOutput: -1,
+    canDock: true,
+    entityCapacity: 2
 }
